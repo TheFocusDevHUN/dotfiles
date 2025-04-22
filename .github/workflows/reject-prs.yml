@@ -27,6 +27,6 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.pull_request.number,
-              body: 'Thanks for your interest in contributing! This repository is for my personal dotfiles, and I generally don\'t accept direct pull requests.\n\nHowever, I encourage you to fork this repository and maintain your own customized version.  Feel free to use my configuration as a starting point and adapt it to your needs. Have a blessed day!'
+              body: 'Thanks for your interest in contributing! This repository is for my personal dotfiles, and I generally don\'t accept direct pull requests.\n\nHowever, I encourage you to fork this repository and maintain your own customized version. Feel free to use my configuration as a starting point and adapt it to your needs. Have a blessed day!'
             })
 
