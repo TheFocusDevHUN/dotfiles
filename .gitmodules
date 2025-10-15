@@ -1,0 +1,6 @@
+[submodule "dot_config/nvim"]
+	path = dot_config/nvim
+	url = https://github.com/TheFocusDevHUN/init.lua.git
+[submodule "dot_config/hypr"]
+	path = dot_config/hypr
+	url = https://github.com/TheFocusDevHUN/tfd-hypr.git

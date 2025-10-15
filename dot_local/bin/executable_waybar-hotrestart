@@ -1,0 +1,15 @@
+#!/bin/bash
+
+CONFIG_FILES="$HOME/.config/waybar/config.jsonc $HOME/.config/waybar/style.css"
+
+trap "killall waybar" EXIT
+
+while true; do
+  waybar &
+  WAYBAR_PID=$!
+  
+  inotifywait -e create,modify $CONFIG_FILES
+  
+  kill $WAYBAR_PID
+  wait $WAYBAR_PID 2>/dev/null
+done
