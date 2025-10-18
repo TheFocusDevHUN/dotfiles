@@ -1,0 +1,22 @@
+/* Minimal CSS - inherits from GTK theme */
+.control-center {
+  background: @theme_bg_color;
+  color: @theme_fg_color;
+  max-height: 600px;
+}
+
+.notification {
+  background: @theme_base_color;
+  color: @theme_text_color;
+  border: 1px solid @borders;
+}
+
+.notification-group-header {
+  font-size: 1.1rem;
+}
+
+.notification-group:focus {
+  background: none;
+}
+
+/* Let GTK handle the rest */
