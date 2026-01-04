@@ -1,4 +1,4 @@
-@import "waybar.css";
+@import "colors.css";
 
 * {
   background-color: @background;
